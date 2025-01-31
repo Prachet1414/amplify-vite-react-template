@@ -1,4 +1,6 @@
 User-agent: amazon-QBusiness # Amazon Q Web Crawler
-Allow: / # allow access to all pages
-User-agent: * # any (other) robot
-Disallow: / # disallow access to any pages
+Allow: /page1
+Allow: /page2
+Disallow: /page3
+User-agent: *  # any (other) robot
+Disallow: /
